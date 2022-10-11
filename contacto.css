@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    background-color: rgb(178, 248, 98);
+}
+
+.titulo{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 30px 10px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 131);
+    font-size: 40px;
+    font-family: verdana;
+    border-bottom: 3px rgb(255, 255, 131) solid;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+}
+
+nav ul{
+    float: center;
+    margin-right: 20px;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 20px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+nav ul li a{
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(19, 18, 18);
+    border-radius: 5px;
+    font-family: verdana;
+    text-decoration: none;
+    border: 3px rgb(255, 255, 131) solid;
+    font-weight: bold;
+}
+
+li a.active, li a:hover{
+    background: rgb(255, 255, 131);
+    color: black;
+    padding: 7px 13 px;
+    border-radius: 5px;
+    margin: 0px;
+    border: 3px black solid;
+    font-weight: bold;
+}
+
+.checkbtn{
+    float: right;
+    line-height: 0px;
+    cursor:pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+
+main{
+    margin: 0px 50px;
+}
+
+.formulario{
+    border: 3px white solid;
+    margin: 0px 0px 0px 130px;
+    border-radius: 10px;
+}
+
+.contacto{
+    display: flex;
+}
+
+.redes{
+    display: block;
+}
+
+
+.facebook{
+    display: flex;
+    margin: 15px 0px 0px 0px;
+}
+
+.logo_facebook{
+    background-color: white;
+    border: 3px white solid;
+    border-top-right-radius: 15px;
+}
+
+.texto_facebook{
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: verdana;
+    font-weight: bold;
+    margin: 30px 0px 0px 0px;
+    padding: 40px 20px 0px 20px;
+    border-top-right-radius: 10px;
+}
+
+
+.instagram{
+    display: flex;
+    margin: 30px 0px 0px 0px;
+}
+
+.logo_instagram{
+    background-color: white;
+    border: 3px white solid;
+    border-top-right-radius: 15px;
+}
+
+.texto_instagram{
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: verdana;
+    font-weight: bold;
+    margin: 30px 0px 0px 0px;
+    padding: 40px 20px 0px 20px;
+    border-top-right-radius: 10px;
+}
+
+
+.correo{
+    display: flex;
+    margin: 15px 0px 0px 0px;
+}
+
+.logo_correo{
+    background-color: white;
+    border: 3px white solid;
+    border-top-right-radius: 15px;
+}
+
+.texto_correo{
+    background-color: white;
+    font-size: 18px;
+    font-family: verdana;
+    font-weight: bold;
+    margin: 30px 0px 0px 0px;
+    padding: 40px 20px;
+    border-top-right-radius: 10px;
+}

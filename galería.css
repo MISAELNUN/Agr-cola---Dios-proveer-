@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    background-color: rgb(178, 248, 98);
+}
+
+.titulo{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 30px 10px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 131);
+    font-size: 40px;
+    font-family: verdana;
+    border-bottom: 3px rgb(255, 255, 131) solid;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+}
+
+nav ul{
+    float: center;
+    margin-right: 20px;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 20px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+nav ul li a{
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(19, 18, 18);
+    border-radius: 5px;
+    font-family: verdana;
+    text-decoration: none;
+    border: 3px rgb(255, 255, 131) solid;
+    font-weight: bold;
+}
+
+li a.active, li a:hover{
+    background: rgb(255, 255, 131);
+    color: black;
+    padding: 7px 13 px;
+    border-radius: 5px;
+    margin: 0px;
+    border: 3px black solid;
+    font-weight: bold;
+}
+
+.checkbtn{
+    float: right;
+    line-height: 0px;
+    cursor:pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+
+main{
+    margin: 0px 50px;
+}
+
+
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.contenedor figure{
+    position: relative;
+    height: 530px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px
+    rgba(0, 0, 0, 0.411);
+    cursor: pointer;
+    margin: 0px 10px;
+}
+
+.contenedor figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedor figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.411);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.contenedor figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+    
+}
+
+.contenedor figure:hover > .capa h3{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.contenedor figure:hover > img{
+    transform: scale(1.1);
+}
+
+.contenedor figure .capa h3{
+    color: rgb(255, 255, 131);
+    font-weight: 400;
+    font-family: verdana;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 200px;
+    font-size: 25px;
+    font-family: verdana;
+    background-color: rgba(0, 0, 0, 0.411);
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+.contenedor figure .capa p{
+    color:#fff;
+    font-size: 17px;
+    font-family: verdana;
+    line-height: 1.5;
+    width: 100%;
+    min-width: 220px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.411);
+    padding: 10px 0px;
+}
+
+.contenedor figure .capa .soles{
+    color:rgb(131, 255, 168);
+    font-size: 50px;
+    font-family: verdana;
+    line-height: 1.5;
+    width: 100%;
+    min-width: 220px;
+    margin: 15px 0px;
+    background-color: rgba(0, 0, 0, 0.411);
+    padding: 10px 0px;
+}

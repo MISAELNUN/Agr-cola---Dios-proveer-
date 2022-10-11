@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    background-color: rgb(178, 248, 98);
+}
+
+.titulo{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 30px 10px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 131);
+    font-size: 40px;
+    font-family: verdana;
+    border-bottom: 3px rgb(255, 255, 131) solid;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+}
+
+nav ul{
+    float: center;
+    margin-right: 20px;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 20px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+nav ul li a{
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(19, 18, 18);
+    border-radius: 5px;
+    font-family: verdana;
+    text-decoration: none;
+    border: 3px rgb(255, 255, 131) solid;
+    font-weight: bold;
+}
+
+li a.active, li a:hover{
+    background: rgb(255, 255, 131);
+    color: black;
+    padding: 7px 13 px;
+    border-radius: 5px;
+    margin: 0px;
+    border: 3px black solid;
+    font-weight: bold;
+}
+
+.checkbtn{
+    float: right;
+    line-height: 0px;
+    cursor:pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+
+main{
+    margin: 0px 50px;
+}
+
+.info_cliente{
+    display: flex;
+    margin: 0px 0px 20px 0px;
+}
+
+.perfil{
+    display: flex;
+    background-color: white;
+    border: 3px black solid;
+}
+
+.perfil_info_cliente{
+    display: block;
+    background-color: white;
+}
+
+
+
+.img_info_cliente{
+    background-color: white;
+    margin: 0px;
+}
+
+.titulo_info_cliente{
+    font-size: 28px;
+    font-family: verdana;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    margin: 10px 0px 5px 0px;
+}
+
+.descripción_info_cliente{
+    text-align: justify;
+    font-family: verdana;
+    font-size: 20px;
+    background-color: white;
+    padding: 5px 20px;
+    line-height: 25px;
+}
+
+
+.más_info{
+    background-color: white;
+    border: 3px black solid;
+    margin-left: 30px;
+}
+
+.más_info h2{
+    font-size: 20px;
+    font-family: verdana;
+    background-color: rgb(34, 32, 32);
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+}
+
+.más_info p{
+    font-size: 20px;
+    font-family: verdana;
+    text-align: justify;
+    background-color: white;
+    padding: 5px 15px;
+}
+
+.texto_formas_envio{
+    font-size: 20px;
+    font-family: verdana;
+    border: 3px white solid;
+    background-color: rgb(19, 18, 18);
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.imgs_perfil_envio{
+    display: block;
+    background-color: white;
+}
+
+.apartado_formas_envio p{
+    background-color: white;
+    font-family: verdana;
+    font-size: 20px;
+    padding: 10px 10px;
+    line-height: 25px;
+}
+
+.formas_pago{
+    display: flex;
+    margin-top: 5px;
+    padding: 10px 0px;
+    background-color: white;
+    border: 3px black solid;
+}
+
+.apartado_formas_pago_efectivo{
+    display: block;
+    text-align: center;
+    margin: 5px 35px 5px 325px;
+    background-color: white;
+}
+
+.apartado_formas_pago_yape{
+    display: block;
+    text-align: center;
+    margin: 5px 25px 5px 25px;
+    background-color: white;
+}
+
+.apartado_formas_pago_plin{
+    display: block;
+    text-align: center;
+    margin: 5px 25px 5px 25px;
+    background-color: white;
+}
+
+.info_formas_pago{
+    font-size: 20px;
+    text-align: center;
+    font-family: verdana;
+    font-weight: bold;
+    background-color: white;
+}
+
+.logo_efectivo{
+    background-color: rgb(76, 119, 148);
+    border-radius: 700px;
+}
+
+.logo_yape{
+    border-radius: 700px;
+    
+}
+
+.logo_plin{
+    background-color: white;
+}
+
+.titulo_formas_pago{    
+    font-size: 25px;
+    font-family: verdana;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    border: 3px rgb(255, 255, 131) solid;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
